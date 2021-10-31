@@ -40,11 +40,18 @@ const About = ({offset, factor = 1}: { offset: number; factor?: number }) => (
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <div sx={{
-          h2:{
-            color: [null,null,'#ffffff']
+          h2: {
+            color: [null, null, '#ffffff']
           },
-          p:{
-            color:[null,null,'#F9F9F9']
+          p: {
+            color: [null, null, '#F9F9F9']
+          },
+          a: {
+            color: '#F9F9F9',
+            textDecoration: 'underline',
+            ":hover": {
+              color: '#F7DF1E',
+            }
           }
         }}>
           <AboutMDX/>

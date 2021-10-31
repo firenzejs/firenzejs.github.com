@@ -34,13 +34,13 @@ const gradients = [
 const ProjectCard = ({link, title, children, bg}: ProjectCardProps) => (
   <a
     href={link}
-    target="_blank"
+    target={link !== '#' ? "_blank" : "_self"}
     rel="noreferrer noopener"
     sx={{
       width: `100%`,
-      minHeight:'15em',
-      display:'flex',
-      flexDirection:'column',
+      minHeight: '15em',
+      display: 'flex',
+      flexDirection: 'column',
       justifyContent: 'space-between',
       boxShadow: `lg`,
       position: `relative`,

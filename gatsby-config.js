@@ -12,7 +12,7 @@ module.exports = {
     siteDescription: `Un meetup di appassionati e professionisti di Javascript. Organizziamo aperitivi, talk e giornate dedicate all'ecosistema Javascript su Firenze e dintorni`,
     // Will be set on the <html /> tag
     siteLanguage: `it`,
-    author: 'LobeTia'
+    author: 'FirenzeJS'
   },
   plugins: [
     {
